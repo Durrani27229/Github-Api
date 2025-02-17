@@ -1,0 +1,84 @@
+body{
+    background-color: #f2f0ef;
+}
+.head{  
+    width: 50%;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 40px auto;
+}
+input{
+    padding: 10px 35px;
+    width: 75%;
+    margin: 8px;
+    border: none;
+    border-radius: 10px;
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 22px;
+    background-position-x: 5px;
+    outline: none;
+    font-size: large;
+}
+.main{
+    width: 50%;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 40px auto;
+}
+.search-btn{
+    width: 120px;
+    height: 45px;
+    margin-bottom: 5px;
+    /* padding: 10px; */
+}
+.github-user{
+    display: flex;
+    padding: 40px;
+    gap: 15px;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+.user-img img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.user-info{
+    line-height: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user-stats{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f0ef;
+    border-radius: 15px;
+    margin: 20px 40px;
+    padding-top: 15px;
+    /* padding: 40px; */
+}
+.user-detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* justify-content: space-around; */
+    margin: 40px;
+    padding: 10px;
+}
+.user-detail div{
+    width: 50%;
+    padding-left: 40px;
+    display: flex;
+    gap: 20px;
+}
+.disc{
+    width: 50%;
+    /* text-align: center; */
+    /* text-indent: 20px; */
+}
