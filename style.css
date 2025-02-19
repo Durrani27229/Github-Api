@@ -4,17 +4,17 @@
 body{
     background-color: #f2f0ef;
     font-family: "Lexend", serif;
+    margin: 0px;
 }
 .head{  
-    width: 50%;
     height: 60px;
-    background-color: white;
     border-radius: 10px;
+    margin: 20px;
     margin: 40px auto;
 }
 input{
     padding: 10px 50px;
-    width: 75%;
+    width: 100%;
     margin: 8px;
     border: none;
     border-radius: 10px;
@@ -27,16 +27,17 @@ input{
     font-size: large;
 }
 .main{
-    width: 50%;
+    width: 65%;
     min-height: 400px;
     background-color: white;
     border-radius: 10px;
-    margin: 40px auto;
+    margin: 20px;
+    /* margin: 40px auto; */
 }
 .search-btn{
-    width: 120px;
+    width: 140px;
     height: 45px;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     /* padding: 10px; */
 }
 .github-user{

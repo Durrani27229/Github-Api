@@ -1,0 +1,79 @@
+
+@media only screen and (max-width: 420px) {
+        .github-user{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .disc{
+            font-size: 12px !important;
+        }
+        i{
+            font-size: 15px !important;
+        }
+        .html-url{
+            font-size: 10px !important;
+        }
+        .user-stats{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;    
+            text-align: center;
+            gap: 15px;
+            height: 245px;
+        }
+}
+
+@media only screen and (max-width: 576px) {
+ 
+    .input{
+        width: 80% !important;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .search-btn{
+        width: 100%;
+        margin: 0px 8px;
+    }
+    .input{
+        width: 100% !important;
+        margin-right: 10px !important;
+    }
+    .main{
+        width: 98% !important;
+        margin: 125px 10px !important;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+    .user-detail{
+        display: flex;
+        flex-direction: column;
+    }
+    .html-url{
+        font-size: 16px;
+    }
+    .user-detail div{
+      
+        padding-left: 10px;
+       
+       
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .html-url{
+        font-size: 13px;
+    }
+}
+

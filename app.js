@@ -2,10 +2,10 @@ const url = 'https://api.github.com/users/';
 const user = "hasan132002";
 const main = document.querySelector('.main')
 
+
 const input = document.querySelector('.search-input');
 const searchBtn = document.querySelector('.search-btn');
 
- 
 
 const onClick = (e) => {
     e.preventDefault();
@@ -68,7 +68,7 @@ const fetchUser = async () => {
                 </div>   
                 <div class="disc">
                     <p><i class="fa-solid fa-link"></i></p>
-                    <p>${data.html_url}</p>
+                    <p class="html-url">${data.html_url}</p>
                     
                 
                 </div>   
