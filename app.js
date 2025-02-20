@@ -19,7 +19,7 @@ const fetchUser = async () => {
     const username = input.value.trim(); // Extra spaces hata dein
 
     if (username === "") {
-        main.innerHTML = `<h2>Please Enter Your Github Username</h2>`;
+        main.innerHTML = `<h2>Please Enter Any Github Username in Search Box</h2>`;
         return;
     }
     try{
